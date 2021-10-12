@@ -109,6 +109,21 @@ input[type="number"] {
 }
 /* LOADER CONTAINER END */
 
+/* BTN CONT START */
+.btn_cont {
+	display: flex;
+	justify-content: end;
+}
+.btn_cont button {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/* BTN CONT END */
+
 /* MEDIA START */
 @media screen and (max-width: 998px) {
 	.card {
